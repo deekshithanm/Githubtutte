@@ -5,8 +5,9 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    plugins: [react(), tailwindcss()],
-    resolve: {
+  base: '/Githubtutte/',
+  plugins: [react(), tailwindcss()],
+  resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
       },
