@@ -1,0 +1,11 @@
+{
+  "name": "AI Meet Interview Proctor",
+  "description": "Google Meet & Teams style real-time interview room with AI proctoring and anti-cheating detection",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
